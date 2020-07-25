@@ -12,5 +12,5 @@ pkg install git
 pkg install perl
 pkg install nmap 
 pkg install python
-pkg install fake-root
+pkg install fakeroot
 git clone https://github.com/sullo/nikto.git 
