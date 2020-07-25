@@ -67,7 +67,7 @@ fi
 elif [ $ch = 2 ]; then
 echo -e "			$Cyan Gmail Brute Force$nc"
 cd gmail
-python gemailhack.py
+python3 gemailhack.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check2
@@ -119,7 +119,7 @@ sleep 0.025
         echo -e "	[+]$red Service Tor Stated $nc[+]"
 sleep 0.9
 service tor start
-python twitter.py
+python3 twitter.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 service tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
