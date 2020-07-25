@@ -11,9 +11,6 @@ cd ..
 pkg install git 
 pkg install perl
 pkg install nmap 
-pkg install python 
-pkg install python3 
-pkg install python-pip 
-pkg install python3-pip
+pkg install python
 pkg install fake-root
 git clone https://github.com/sullo/nikto.git 
