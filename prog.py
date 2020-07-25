@@ -63,14 +63,20 @@ def nmap():
 			choix1 = input("Target : ")
 			os.system("nmap " + choix1)
 			input("Press ENTER to continue")
+			clear()
+			nmap()
 		elif choix == "2":
 			choix1 = input("Target : ")
 			os.system("nmap -sC -sV " + choix1)			
 			input("Press ENTER to continue")
+			clear()
+			nmap()
 		elif choix == "3":
 			choix1 = input("Target : ")
 			os.system("nmap -sC -sV -A -T4 -sU -Pn " + choix1)			
 			input("Press ENTER to continue")
+			clear()
+			nmap()
 		elif choix == "0":
 			clear()
 			hacking()
