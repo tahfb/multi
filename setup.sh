@@ -8,5 +8,11 @@ pip install selenium==2.53.6 && pip install termcolor
 cd instagram 
 bash install.sh
 cd ..
-pkg install git perl nmap python python3 python-pip python3-pip
+pkg install git 
+pkg install perl
+pkg install nmap 
+pkg install python 
+pkg install python3 
+pkg install python-pip 
+pkg install python3-pip
 git clone https://github.com/sullo/nikto.git 
